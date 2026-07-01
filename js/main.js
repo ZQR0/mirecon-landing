@@ -22,7 +22,7 @@ fadeElements.forEach(item => {
 
 const heroTitle = document.getElementById('hero-title');
 
-const titles = ['Расходные материалы', 'Инжекторы']
+const titles = ['Расходные материалы', 'Инжекторы', 'Официальный представитель APOSTAR']
 
 let currentTitleIndex = 0;
 
