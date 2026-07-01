@@ -142,6 +142,44 @@ body{
     grid-column:1 / -1;
 }
 
+.gallery-wrapper{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.category-title{
+
+    text-align:center;
+
+    font-size:48px;
+    font-weight:700;
+    letter-spacing:4px;
+
+    color:#0f2234;
+
+    position:relative;
+
+    margin-top:20px;
+}
+
+.category-title::after{
+
+    content:"";
+
+    display:block;
+
+    width:120px;
+    height:5px;
+
+    background:#6dd6ff;
+
+    margin:15px auto 0;
+
+    border-radius:10px;
+}
+
+
 /* ABOUT */
 
 .about{
